@@ -1,0 +1,35 @@
+{
+  "checklists": {
+    "checklists": []
+  },
+  "creationTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681897570700,
+    "versionNumber": 0
+  },
+  "customFields": {},
+  "listed": true,
+  "name": "test's default dashboard",
+  "owner": "admin",
+  "pages": [
+    {
+      "enableCrossFilters": true,
+      "grid": {
+        "tiles": []
+      },
+      "id": "YFQeON3",
+      "showTitle": false
+    }
+  ],
+  "showGrid": true,
+  "tags": [],
+  "versionTag": {
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681897570700,
+    "versionNumber": 0
+  }
+}

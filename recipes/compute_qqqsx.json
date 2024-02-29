@@ -1,0 +1,73 @@
+{
+  "type": "CustomCode_timeseries-preparation-resampling",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "params": {
+    "customConfig": {
+      "advanced_activated": false,
+      "time_step": 1,
+      "time_unit": "days",
+      "time_unit_end_of_week": "SUN",
+      "interpolation_method": "none",
+      "constant_value": 0,
+      "extrapolation_method": "none",
+      "category_imputation_method": "constant",
+      "clip_start": 0,
+      "clip_end": 0,
+      "shift": 0,
+      "groupby_columns": [],
+      "category_constant_value": "h",
+      "datetime_column": "ref_date"
+    },
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "input_dataset": {
+      "items": [
+        {
+          "ref": "meow1_prepared_by_ref_date_copy",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "output_dataset": {
+      "items": [
+        {
+          "ref": "qqqsx",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "versionTag": {
+    "versionNumber": 10,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681909015179
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1681903706387
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
