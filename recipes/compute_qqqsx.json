@@ -51,19 +51,13 @@
     }
   },
   "labels": [],
-  "versionTag": {
-    "versionNumber": 10,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1681909015179
-  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1681903706387
+    "lastModifiedOn": 1681903706387,
+    "extendedProperties": {}
   },
   "tags": [],
   "customFields": {},
