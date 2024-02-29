@@ -20,7 +20,7 @@
       "datetime_column": "ref_date"
     },
     "containerSelection": {
-      "containerMode": "INHERIT"
+      "containerMode": "NONE"
     }
   },
   "customMeta": {
