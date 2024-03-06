@@ -138,6 +138,7 @@
     "dkuProperties": []
   },
   "name": "test",
+  "imgPattern": 3,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -203,7 +204,8 @@
   },
   "shortDesc": "The project *test* was created by Local administrator on Apr 19th 2023",
   "tags": [
-    "imported"
+    "imported",
+    "test-tag"
   ],
   "customFields": {},
   "checklists": {

@@ -2,6 +2,7 @@
   "tags": {
     "imported": {
       "color": "#263238"
-    }
+    },
+    "test-tag": {}
   }
 }
