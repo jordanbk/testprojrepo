@@ -401,10 +401,10 @@
         "mode": "SQL",
         "id": "6kkO9bzl63JC",
         "runOn": 1711560881546,
-        "runIn": 669,
+        "runIn": 608,
         "runBy": "admin",
         "connection": "redshift",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "dVpA4rn7",
         "hash": "402c7b46cbd4c6a63262dc181048753a",
         "querySettings": {
