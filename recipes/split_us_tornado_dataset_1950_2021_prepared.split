@@ -15,6 +15,7 @@
   "randomColumns": [],
   "centileOrders": [],
   "rangeSetTime": false,
+  "engineType": "DSS",
   "randomSplits": [
     {
       "outputIndex": 0,
