@@ -220,6 +220,28 @@
         },
         "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
         "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "hPPXZtT5FncL",
+        "runOn": 1711560487907,
+        "runIn": 619,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "leAM5Xz7",
+        "hash": "43105b8f4be9b31f3f244563ace01eba",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT cast(col1 as NUMERIC(28, 10)) \nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n",
+        "expandedSql": "SELECT cast(col1 as NUMERIC(28, 10)) \nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n"
       }
     ],
     "a55j8eju65u": [
