@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT cast(\"elat\" as DECIMAL)\nFROM ",
+      "code": "SELECT cast(\"col1\" as DECIMAL)\nFROM ",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
