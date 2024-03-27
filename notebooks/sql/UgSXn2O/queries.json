@@ -132,6 +132,28 @@
         },
         "sql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n",
         "expandedSql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "etiHnBZZFu8Y",
+        "runOn": 1711560178246,
+        "runIn": 5763,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "LwdNpU5o",
+        "hash": "c416ce91e7b6065d5be806672ce90f4a",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n",
+        "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n"
       }
     ],
     "a55j8eju65u": [
