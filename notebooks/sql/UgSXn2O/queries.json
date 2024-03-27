@@ -559,10 +559,10 @@
         "mode": "SQL",
         "id": "6T0jUpEkHN0q",
         "runOn": 1711561213058,
-        "runIn": 6144,
+        "runIn": 527,
         "runBy": "admin",
         "connection": "redshift",
-        "state": "RUNNING",
+        "state": "DONE",
         "futureId": "yY4EY2BI",
         "hash": "3588d924afe00c27f5aa2ae0859dab79",
         "querySettings": {
