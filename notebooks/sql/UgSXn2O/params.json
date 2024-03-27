@@ -20,7 +20,7 @@
     {
       "id": "u94gupadlke",
       "type": "QUERY",
-      "code": "SELECT round(x::numeric,2), trunc(x::numeric,2), to_char(x, \u0027FM99.99\u0027)",
+      "code": "SELECT round(x::numeric,2), trunc(x::numeric,2), to_char(x, \u0027FM99.99\u0027)\n",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
