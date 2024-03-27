@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT \"elat\"\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
+      "code": "SELECT cast()\"elat\"\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
