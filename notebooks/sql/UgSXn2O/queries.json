@@ -465,6 +465,30 @@
         "sql": "SHOW TABLE \"dataiku\".\"jordan_jb-redshift-float-test-cpy\"",
         "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_jb-redshift-float-test-cpy\""
       }
+    ],
+    "u94gupadlke": [
+      {
+        "mode": "SQL",
+        "id": "QahwH97QuHI3",
+        "runOn": 1711561046933,
+        "runIn": -1,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "H0Kn5z4p",
+        "hash": "bb556bd94e117dc81fccda6c9a050651",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT round(col1::numeric,2), trunc(col1::numeric,2), to_char(col1, \u0027FM99.99\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"",
+        "expandedSql": "SELECT round(col1::numeric,2), trunc(col1::numeric,2), to_char(col1, \u0027FM99.99\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\""
+      }
     ]
   }
 }
