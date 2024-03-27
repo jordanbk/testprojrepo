@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "manb09u0pgf": [
+      {
+        "mode": "SQL",
+        "id": "NGeHmJzzYg7u",
+        "runOn": 1711559751516,
+        "runIn": -1,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "TfuH2V2U",
+        "hash": "c1dce232b70c98d2961c15f37e6452ca",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"",
+        "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\""
+      }
+    ]
+  }
+}
