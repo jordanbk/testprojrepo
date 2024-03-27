@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT cast(\"col1\" as DECIMAL)\n\n",
+      "code": "SHOW TABLE \n\n",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
