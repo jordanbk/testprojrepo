@@ -58,7 +58,22 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"yr","type":"bigint"},
+      {"name":"mo","type":"bigint"},
+      {"name":"dy","type":"bigint"},
+      {"name":"date","type":"string","maxLength":65000},
+      {"name":"st","type":"string","maxLength":65000},
+      {"name":"mag","type":"bigint"},
+      {"name":"inj","type":"bigint"},
+      {"name":"fat","type":"bigint"},
+      {"name":"slat","type":"double"},
+      {"name":"slon","type":"double"},
+      {"name":"elat","type":"double"},
+      {"name":"elon","type":"double"},
+      {"name":"len","type":"double"},
+      {"name":"wid","type":"bigint"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
