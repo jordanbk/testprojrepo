@@ -53,7 +53,9 @@
     "importSourceType": "NONE"
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"col1","type":"string"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
