@@ -6,7 +6,7 @@
     {
       "id": "manb09u0pgf",
       "type": "QUERY",
-      "code": "SHOW",
+      "code": "SHOW TABLE ",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
