@@ -22,6 +22,28 @@
         },
         "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
         "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\""
+      },
+      {
+        "mode": "SQL",
+        "id": "0Z2IKCiGvvwK",
+        "runOn": 1711559126399,
+        "runIn": 588,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "FHVEJCly",
+        "hash": "59617640ea1d57885874a2fe0fcd120d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT \"elat\"\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
+        "expandedSql": "SELECT \"elat\"\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\""
       }
     ]
   }
