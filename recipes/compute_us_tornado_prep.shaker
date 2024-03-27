@@ -29,7 +29,10 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -57,7 +60,22 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "date": 100,
+    "st": 100,
+    "mo": 100,
+    "inj": 100,
+    "elon": 134,
+    "slon": 134,
+    "mag": 100,
+    "wid": 100,
+    "len": 134,
+    "dy": 100,
+    "elat": 134,
+    "fat": 100,
+    "yr": 100,
+    "slat": 134
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
