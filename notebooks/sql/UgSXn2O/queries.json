@@ -352,6 +352,28 @@
         },
         "sql": "SELECT ROUND(CAST(col1 as numeric), 2);\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n",
         "expandedSql": "SELECT ROUND(CAST(col1 as numeric), 2);\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "XNlVoXJMHpmS",
+        "runOn": 1711560757616,
+        "runIn": 514,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "0a7T6MU1",
+        "hash": "e3d251a55aa3b0f0b4d33950f577b936",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT round( CAST(float8 \u0027col1\u0027 as numeric), 2)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n",
+        "expandedSql": "SELECT round( CAST(float8 \u0027col1\u0027 as numeric), 2)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n"
       }
     ],
     "a55j8eju65u": [
