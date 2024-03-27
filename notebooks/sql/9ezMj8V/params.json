@@ -2,7 +2,22 @@
   "analyzedDataset": "jb_redshift_float_prepared_copy",
   "connection": "redshift",
   "name": "admin\u0027s sql notebook on jb_redshift_float_prepared_copy",
-  "cells": [],
+  "cells": [
+    {
+      "id": "manb09u0pgf",
+      "type": "QUERY",
+      "code": "SHOW",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "creationTag": {
     "versionNumber": 0,
