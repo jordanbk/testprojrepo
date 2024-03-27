@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT cast(col) \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
+      "code": "SELECT cast(col1) \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
