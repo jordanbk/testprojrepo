@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
+      "code": "SELECT \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
