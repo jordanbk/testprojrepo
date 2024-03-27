@@ -66,6 +66,28 @@
         },
         "sql": "SELECT cast(\"elat\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
         "expandedSql": "SELECT cast(\"elat\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\""
+      },
+      {
+        "mode": "SQL",
+        "id": "bSdJlaFwJkJP",
+        "runOn": 1711559820981,
+        "runIn": 5707,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "5F3siz19",
+        "hash": "9544dabe85cfc0510d32dbff0b79af80",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb-redshift-float-test-cpy\"",
+        "expandedSql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb-redshift-float-test-cpy\""
       }
     ],
     "a55j8eju65u": [
