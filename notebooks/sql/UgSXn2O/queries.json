@@ -554,6 +554,28 @@
         },
         "sql": "SELECT round(col1::float,2), trunc(col1::numeric,2), to_char(col1::float, \u0027FM999999990.00\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"",
         "expandedSql": "SELECT round(col1::float,2), trunc(col1::numeric,2), to_char(col1::float, \u0027FM999999990.00\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\""
+      },
+      {
+        "mode": "SQL",
+        "id": "6T0jUpEkHN0q",
+        "runOn": 1711561213058,
+        "runIn": 6144,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "yY4EY2BI",
+        "hash": "3588d924afe00c27f5aa2ae0859dab79",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT round(col1,2), trunc(col1::numeric,2), to_char(col1::float, \u0027FM999999990.00\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"",
+        "expandedSql": "SELECT round(col1,2), trunc(col1::numeric,2), to_char(col1::float, \u0027FM999999990.00\u0027)\nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\""
       }
     ]
   }
