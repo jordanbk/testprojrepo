@@ -198,6 +198,28 @@
         },
         "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n",
         "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n\n"
+      },
+      {
+        "mode": "SQL",
+        "id": "DFhbpdvf6uhI",
+        "runOn": 1711560204502,
+        "runIn": 529,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "JrSW008n",
+        "hash": "713166f3315bdb6e4c7227bf02f86a4b",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
+        "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n"
       }
     ],
     "a55j8eju65u": [
