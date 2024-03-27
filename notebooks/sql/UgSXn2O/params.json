@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT cast(col1 as NUMERIC(28, 10)) \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
+      "code": "SELECT cast(col1 as NUMERIC(28, 10)) \nFROM \"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_test\"\n\n",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
