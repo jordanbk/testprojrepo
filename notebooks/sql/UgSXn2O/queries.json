@@ -88,6 +88,28 @@
         },
         "sql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb-redshift-float-test-cpy\"",
         "expandedSql": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb-redshift-float-test-cpy\""
+      },
+      {
+        "mode": "SQL",
+        "id": "bn5BeCNoOC2r",
+        "runOn": 1711560024643,
+        "runIn": 624,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "B8z3VjXq",
+        "hash": "729e56c6d7218c354effcf8944181bfc",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SELECT cast(\"col1\" as DECIMAL)\n\"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n",
+        "expandedSql": "SELECT cast(\"col1\" as DECIMAL)\n\"dataiku\".\"jordan_TEST_jb_redshift_float_prepared_copy\"\n"
       }
     ],
     "a55j8eju65u": [
