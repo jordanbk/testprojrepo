@@ -16,20 +16,6 @@
         "statementsParseMode": "SPLIT",
         "statementsExecutionMode": "PREPARED"
       }
-    },
-    {
-      "id": "a55j8eju65u",
-      "type": "QUERY",
-      "code": "SHOW TABLE \"dataiku\".\"jordan_jb-redshift-float-test-cpy\"",
-      "querySettings": {
-        "addLimitToStatement": true,
-        "statementsOutOfTransaction": false,
-        "inheritConf": "default",
-        "extraConf": [],
-        "addDkuUdf": false,
-        "statementsParseMode": "SPLIT",
-        "statementsExecutionMode": "PREPARED"
-      }
     }
   ],
   "automationLocal": false,
