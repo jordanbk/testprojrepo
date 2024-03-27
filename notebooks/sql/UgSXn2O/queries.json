@@ -335,10 +335,10 @@
         "mode": "SQL",
         "id": "k9GgWlaEPNia",
         "runOn": 1711560703712,
-        "runIn": 471,
+        "runIn": 514,
         "runBy": "admin",
         "connection": "redshift",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "kTyhN6ke",
         "hash": "e45a76fa85592eb195528203edcd20cc",
         "querySettings": {
