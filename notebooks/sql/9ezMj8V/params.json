@@ -1,0 +1,20 @@
+{
+  "analyzedDataset": "jb_redshift_float_prepared_copy",
+  "connection": "redshift",
+  "name": "admin\u0027s sql notebook on jb_redshift_float_prepared_copy",
+  "cells": [],
+  "automationLocal": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1711559736853,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
