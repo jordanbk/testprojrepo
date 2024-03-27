@@ -291,10 +291,10 @@
         "mode": "SQL",
         "id": "4ADq6mhKntwB",
         "runOn": 1711560689959,
-        "runIn": 5720,
+        "runIn": 569,
         "runBy": "admin",
         "connection": "redshift",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "quyLV2ET",
         "hash": "ced68edf67adebd03534a149d9655576",
         "querySettings": {
