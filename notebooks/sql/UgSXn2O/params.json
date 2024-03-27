@@ -2,7 +2,21 @@
   "analyzedDataset": "us_tornado_dataset_1950_2021_prepared_copy",
   "connection": "redshift",
   "name": "admin\u0027s sql notebook on us_tornado_dataset_1950_2021_prepared_copy",
-  "cells": [],
+  "cells": [
+    {
+      "id": "pzg6sxsqdb",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "creationTag": {
     "versionNumber": 0,
