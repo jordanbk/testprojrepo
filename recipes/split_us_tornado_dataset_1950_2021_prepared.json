@@ -25,6 +25,10 @@
         {
           "ref": "us_tornados_split1",
           "appendMode": false
+        },
+        {
+          "ref": "us_tornados_split2",
+          "appendMode": false
         }
       ]
     }
