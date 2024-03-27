@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT cast(\"col1\" as DECIMAL)\nFROM ",
+      "code": "SELECT cast(\"col1\" as DECIMAL)\nFROM \"dataiku\".\"jordan_TEST_jb-redshift-float-test-cpy\"",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
