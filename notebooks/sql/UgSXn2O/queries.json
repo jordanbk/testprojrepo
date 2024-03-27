@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "pzg6sxsqdb": [
+      {
+        "mode": "SQL",
+        "id": "KUFCqUOX1kFv",
+        "runOn": 1711559097016,
+        "runIn": -1,
+        "runBy": "admin",
+        "connection": "redshift",
+        "state": "RUNNING",
+        "futureId": "gT3ka1Og",
+        "hash": "b2d953563d4aa11e8a90250b57d0abf4",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLE \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
+        "expandedSql": "SHOW TABLE \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\""
+      }
+    ]
+  }
+}
