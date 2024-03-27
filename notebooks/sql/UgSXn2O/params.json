@@ -6,7 +6,7 @@
     {
       "id": "pzg6sxsqdb",
       "type": "QUERY",
-      "code": "SELECT * FROM \"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
+      "code": "SHOW TABLE\"dataiku\".\"jordan_TEST_us_tornado_dataset_1950_2021_prepared_copy\"",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
