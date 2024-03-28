@@ -2,7 +2,20 @@
   "name": "sp",
   "type": "fsprovider_sharepoint-online_sharepoint-online_shared-documents",
   "params": {
-    "config": {},
+    "config": {
+      "advanced_parameters": false,
+      "sharepoint_oauth": {
+        "mode": "PRESET",
+        "name": "sso"
+      },
+      "sharepoint_sharepy": {
+        "mode": "NONE"
+      },
+      "site_app_permissions": {
+        "mode": "NONE"
+      },
+      "auth_type": "oauth"
+    },
     "path": "/${projectKey}/${odbId}",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
