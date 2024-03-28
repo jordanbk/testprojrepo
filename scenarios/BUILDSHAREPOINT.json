@@ -19,7 +19,13 @@
       "delay": 300,
       "active": true,
       "params": {
-        "watches": [],
+        "watches": [
+          {
+            "type": "DATASET",
+            "itemId": "sharepoint_test",
+            "partitionsSpec": ""
+          }
+        ],
         "triggerWhenAllFire": false
       },
       "graceDelaySettings": {
