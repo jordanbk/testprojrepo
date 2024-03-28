@@ -54,7 +54,7 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "Shared_Documents",
+              "itemId": "sharepoint_test",
               "partitionsSpec": ""
             }
           ],
