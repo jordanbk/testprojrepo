@@ -1,12 +1,7 @@
 {
   "name": "sharepoint",
   "color": "#C82423",
-  "items": [
-    {
-      "objectId": "Wo0Fhuw2",
-      "objectType": "MANAGED_FOLDER"
-    }
-  ],
+  "items": [],
   "shared": [],
   "tags": [],
   "customFields": {},
