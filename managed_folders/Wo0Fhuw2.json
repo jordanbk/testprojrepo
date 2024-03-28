@@ -16,7 +16,7 @@
       },
       "auth_type": "oauth"
     },
-    "path": "/${projectKey}/${odbId}",
+    "path": "/vitaliy/sample.xlsx",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
