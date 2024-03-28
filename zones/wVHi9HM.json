@@ -1,7 +1,80 @@
 {
   "name": "redshift",
   "color": "#F9BE40",
-  "items": [],
+  "items": [
+    {
+      "objectId": "dima_titanic_s3_redshft_fastpath",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "jb_redshift_float",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "us_tornado_dataset_1950_2021",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_dima_titanic_s3_redshft_fastpath_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "dima_titanic_s3_redshft_fastpath_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_jb_redshift_float_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "jb_redshift_float_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_jb_redshift_float_prepared_copy",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "jb_redshift_float_prepared_copy",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_us_tornado_dataset_1950_2021_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "us_tornado_dataset_1950_2021_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "split_us_tornado_dataset_1950_2021_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_us_tornados_split1_cp",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "us_tornados_split1_cp",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "us_tornados_split1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_us_tornados_split2_cp",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "us_tornados_split2_cp",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "us_tornados_split2",
+      "objectType": "DATASET"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
