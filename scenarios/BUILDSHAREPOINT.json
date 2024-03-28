@@ -11,7 +11,23 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "tqEjXJ9A",
+      "type": "ds_modified",
+      "name": "Dataset modified",
+      "delay": 300,
+      "active": true,
+      "params": {
+        "watches": [],
+        "triggerWhenAllFire": false
+      },
+      "graceDelaySettings": {
+        "delay": 20,
+        "checkAgainAfterGraceDelay": true
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": [
