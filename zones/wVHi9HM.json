@@ -73,6 +73,14 @@
     {
       "objectId": "us_tornados_split2",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "jb_redshift_float_prepared_copy_prep",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_jb_redshift_float_prepared_copy_prep",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
