@@ -65,6 +65,31 @@
           "handleWarningsAs": "WARNING",
           "proceedOnFailure": false
         }
+      },
+      {
+        "id": "check_FAILED_f_mPG4e1V3",
+        "type": "check_dataset",
+        "name": "Step #2",
+        "runConditionType": "RUN_CONDITIONALLY",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "checks": [
+            {
+              "type": "MANAGED_FOLDER",
+              "itemId": "mPG4e1V3",
+              "partitionsSpec": ""
+            }
+          ],
+          "handleWarningsAs": "FAILED",
+          "proceedOnFailure": false
+        }
       }
     ]
   },
