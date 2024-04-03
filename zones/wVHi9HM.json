@@ -85,6 +85,10 @@
     {
       "objectId": "mPG4e1V3",
       "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "compute_mPG4e1V3",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
