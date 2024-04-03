@@ -67,6 +67,30 @@
         }
       },
       {
+        "id": "comp_metrics_d_jb_redshift_float",
+        "type": "compute_metrics",
+        "name": "the_metrics",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "computes": [
+            {
+              "type": "DATASET",
+              "itemId": "jb_redshift_float",
+              "partitionsSpec": ""
+            }
+          ],
+          "proceedOnFailure": false
+        }
+      },
+      {
         "id": "check_FAILED_f_mPG4e1V3",
         "type": "check_dataset",
         "name": "Step #2",
@@ -75,7 +99,7 @@
           "SUCCESS",
           "WARNING"
         ],
-        "runConditionExpression": "",
+        "runConditionExpression": "parseJson(stepOutput_the_metrics)[‘TEST.computed’].results",
         "resetScenarioStatus": false,
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
