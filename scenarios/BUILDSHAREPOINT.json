@@ -108,14 +108,6 @@
           "definitions": [
             {
               "key": "check_folder_files",
-              "value": "toNumber(filter(parseJson(stepOutput_the_metrics)[\"TEST.mPG4e1V3_NP\"][\"computed\"], x, x[\"metricId\"] \u003d\u003d \"basic:COUNT_FILES\")[0][\"value\"])"
-            },
-            {
-              "key": "check_folder_files",
-              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027TEST.mPG4e1V3_NP\u0027].computed, x, x[\u0027metricId\u0027] \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0][\u0027value\u0027]"
-            },
-            {
-              "key": "check_folder_files",
               "value": "toNumber(filter(parseJson(stepOutput_the_metrics)[\u0027TEST.mPG4e1V3_NP\u0027][\u0027computed\u0027], x, x[\"metricId\"]\u003d\u003d\"basic:COUNT_FILES\")[0].value)"
             }
           ],
