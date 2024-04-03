@@ -34,30 +34,7 @@
       }
     }
   ],
-  "reporters": [
-    {
-      "active": true,
-      "messaging": {
-        "type": "mail-scenario",
-        "configuration": {
-          "channelId": "gmail",
-          "subject": "DSS scenario ${scenarioName}: ${outcome}",
-          "recipient": "jordan.burke@dataiku.com",
-          "sendAsHTML": false,
-          "attachments": [],
-          "messageSource": "INLINE",
-          "templateFormat": "FREEMARKER",
-          "templateName": "default.ftl",
-          "message": "toNumber(filter(parseJson(stepOutput_the_metrics)[\u0027TEST.oR5q5LaL_NP\u0027][\u0027computed\u0027], x, x[\"metricId\"]\u003d\u003d\"basic:COUNT_FILES\")[0].value)"
-        }
-      },
-      "id": "NGoXrHu7",
-      "name": "mail",
-      "runConditionEnabled": true,
-      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
-      "phase": "END"
-    }
-  ],
+  "reporters": [],
   "params": {
     "steps": [
       {
