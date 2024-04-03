@@ -584,7 +584,7 @@
         "runIn": -1,
         "runBy": "admin",
         "connection": "redshift",
-        "state": "RUNNING",
+        "state": "FAILED",
         "futureId": "evoPEsgD",
         "hash": "3588d924afe00c27f5aa2ae0859dab79",
         "querySettings": {
