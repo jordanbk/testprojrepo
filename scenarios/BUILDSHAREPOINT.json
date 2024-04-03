@@ -38,7 +38,7 @@
   "params": {
     "steps": [
       {
-        "id": "build_0_true_d_Shared_Documents",
+        "id": "build_0_true_d_jb_redshift_float",
         "type": "build_flowitem",
         "name": "Step #1",
         "runConditionType": "RUN_IF_STATUS_MATCH",
@@ -54,7 +54,7 @@
           "builds": [
             {
               "type": "DATASET",
-              "itemId": "sharepoint_test",
+              "itemId": "jb_redshift_float",
               "partitionsSpec": ""
             }
           ],
