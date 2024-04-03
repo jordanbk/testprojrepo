@@ -6,7 +6,7 @@
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "${odbId}",
     "connection": "jordan-s3-bucket",
-    "path": "/dataiku/${projectKey}/${odbId}",
+    "path": "/Datasets/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
