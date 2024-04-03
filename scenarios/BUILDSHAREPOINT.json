@@ -67,30 +67,6 @@
         }
       },
       {
-        "id": "def_scenar_vars_check_folder_files",
-        "type": "define_vars",
-        "name": "Step #4",
-        "runConditionType": "RUN_IF_STATUS_MATCH",
-        "runConditionStatuses": [
-          "SUCCESS",
-          "WARNING"
-        ],
-        "runConditionExpression": "",
-        "resetScenarioStatus": false,
-        "delayBetweenRetries": 10,
-        "maxRetriesOnFail": 0,
-        "params": {
-          "variables": {},
-          "definitions": [
-            {
-              "key": "check_folder_files",
-              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027ProjectKey.datasetName_NP\u0027].computed, x, x.metricId \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value"
-            }
-          ],
-          "evaluateValues": true
-        }
-      },
-      {
         "id": "comp_metrics_d_jb_redshift_float",
         "type": "compute_metrics",
         "name": "the_metrics",
@@ -112,6 +88,30 @@
             }
           ],
           "proceedOnFailure": false
+        }
+      },
+      {
+        "id": "def_scenar_vars_check_folder_files",
+        "type": "define_vars",
+        "name": "Step #4",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "variables": {},
+          "definitions": [
+            {
+              "key": "check_folder_files",
+              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027ProjectKey.datasetName_NP\u0027].computed, x, x.metricId \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value"
+            }
+          ],
+          "evaluateValues": true
         }
       },
       {
