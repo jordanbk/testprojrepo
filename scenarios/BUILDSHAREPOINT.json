@@ -8,7 +8,7 @@
   "delayedTriggersBehavior": {
     "delayWhileRunning": true,
     "squashDelayedTriggers": true,
-    "suppressTriggersWhileRunning": true
+    "suppressTriggersWhileRunning": false
   },
   "tags": [],
   "triggers": [
@@ -19,13 +19,7 @@
       "delay": 300,
       "active": true,
       "params": {
-        "watches": [
-          {
-            "type": "DATASET",
-            "itemId": "sharepoint_test",
-            "partitionsSpec": ""
-          }
-        ],
+        "watches": [],
         "triggerWhenAllFire": false
       },
       "graceDelaySettings": {
