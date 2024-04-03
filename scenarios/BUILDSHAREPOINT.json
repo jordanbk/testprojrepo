@@ -112,7 +112,7 @@
             },
             {
               "key": "",
-              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027GIFLIONSTIGERS.eoMMfgEv_NP\u0027].computed, x, x.metricId \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value"
+              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027TEST.mPG4e1V3_NP\u0027].computed, x, x.metricId \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value"
             }
           ],
           "evaluateValues": true
