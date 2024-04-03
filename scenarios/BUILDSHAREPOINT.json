@@ -91,9 +91,9 @@
         }
       },
       {
-        "id": "def_scenar_vars_check_folder_files",
-        "type": "define_vars",
-        "name": "Step #4",
+        "id": "set_project_vars",
+        "type": "set_project_vars",
+        "name": "Step #3",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
