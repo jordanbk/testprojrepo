@@ -53,8 +53,8 @@
         "params": {
           "builds": [
             {
-              "type": "DATASET",
-              "itemId": "jb_redshift_float",
+              "type": "MANAGED_FOLDER",
+              "itemId": "mPG4e1V3",
               "partitionsSpec": ""
             }
           ],
