@@ -112,7 +112,7 @@
             },
             {
               "key": "check_folder_files",
-              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027TEST.mPG4e1V3_NP\u0027].computed, x, x[\u0027metricId\u0027] \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value \u003d\u003d \u00270\u0027"
+              "value": "filter(parseJson(stepOutput_the_metrics)[\u0027TEST.mPG4e1V3_NP\u0027].computed, x, x[\u0027metricId\u0027] \u003d\u003d \u0027basic:COUNT_FILES\u0027)[0].value"
             }
           ],
           "evaluateValues": true
