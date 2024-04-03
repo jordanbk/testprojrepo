@@ -82,8 +82,8 @@
         "params": {
           "computes": [
             {
-              "type": "DATASET",
-              "itemId": "jb_redshift_float",
+              "type": "MANAGED_FOLDER",
+              "itemId": "vMP0AgON",
               "partitionsSpec": ""
             }
           ],
