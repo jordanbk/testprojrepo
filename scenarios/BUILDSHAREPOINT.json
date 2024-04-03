@@ -19,7 +19,13 @@
       "delay": 300,
       "active": true,
       "params": {
-        "watches": [],
+        "watches": [
+          {
+            "type": "MANAGED_FOLDER",
+            "itemId": "mPG4e1V3",
+            "partitionsSpec": ""
+          }
+        ],
         "triggerWhenAllFire": false
       },
       "graceDelaySettings": {
