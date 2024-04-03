@@ -108,7 +108,7 @@
           "definitions": [
             {
               "key": "check_files",
-              "value": "filter(parseJson(stepOutput_the_metrics)[\"TEST.mPG4e1V3_NP_NP\"].computed, x, x.metricId\u003d\u003d\"basic:COUNT_FILES\")[0].value"
+              "value": "filter(parseJson(stepOutput_the_metrics)[\"TEST.mPG4e1V3_NP_NP\"].computed, x, x.[\"metricId\"]\u003d\u003d\"basic:COUNT_FILES\")[0].value \u003e \u00270\u0027"
             }
           ],
           "evaluateValues": true
