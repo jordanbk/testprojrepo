@@ -108,7 +108,7 @@
           "definitions": [
             {
               "key": "check_files",
-              "value": "toNumber(filter(parseJson(stepOutput_the_metrics)[\"TEST.oR5q5LaL_NP\"][\u0027computed\u0027], x, x[\"metricId\"]\u003d\u003d\"basic:COUNT_FILES\")[0].value)"
+              "value": "toNumber(filter(parseJson(stepOutput_the_metrics)[\"TEST.oR5q5LaL_NP\"][\"computed\"], x, x[\"metricId\"]\u003d\u003d\"basic:COUNT_FILES\")[0].value)"
             }
           ],
           "evaluateValues": true
