@@ -69,7 +69,7 @@
       {
         "id": "comp_metrics_d_jb_redshift_float",
         "type": "compute_metrics",
-        "name": "the_metrics",
+        "name": "Compute_Metrics",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
           "SUCCESS",
