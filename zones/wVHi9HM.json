@@ -101,6 +101,10 @@
     {
       "objectId": "us_tornado_test",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_us_tornado_test",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
