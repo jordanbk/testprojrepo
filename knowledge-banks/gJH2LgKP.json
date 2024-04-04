@@ -1,0 +1,25 @@
+{
+  "name": "us_tornado_dataset_1950_2021_prepared_embedded",
+  "retrieverType": "VECTOR_STORE_BACKED",
+  "rebuildBehavior": "EXPLICIT",
+  "vectorStoreType": "FAISS",
+  "embeddingLLMId": "azureopenai:Azure-OpenAI:support-team-text-embedding",
+  "envSelection": {
+    "envMode": "EXPLICIT_ENV",
+    "envName": "py38_llm"
+  },
+  "llmsExposedWith": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1712241051612,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
