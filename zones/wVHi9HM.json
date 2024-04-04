@@ -97,6 +97,10 @@
     {
       "objectId": "gJH2LgKP",
       "objectType": "RETRIEVABLE_KNOWLEDGE"
+    },
+    {
+      "objectId": "us_tornado_test",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
