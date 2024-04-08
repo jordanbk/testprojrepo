@@ -109,6 +109,14 @@
     {
       "objectId": "SQL_nyc_trips_copy",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "SQL_nyc_trips_copy_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_SQL_nyc_trips_copy_prepared",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
