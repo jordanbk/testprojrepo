@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "4c25w45oskv": [
+      {
+        "mode": "SQL",
+        "id": "gd5fQCXqSNkE",
+        "runOn": 1712585001233,
+        "runIn": -1,
+        "runBy": "admin",
+        "connection": "postgresql",
+        "state": "RUNNING",
+        "futureId": "AK7iv2TO",
+        "hash": "21f679785ae113524a9da918eff802ae",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLE \"public\".\"SQL_nyc_trips_copy\"",
+        "expandedSql": "SHOW TABLE \"public\".\"SQL_nyc_trips_copy\""
+      }
+    ]
+  }
+}
