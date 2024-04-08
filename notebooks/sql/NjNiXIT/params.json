@@ -6,6 +6,7 @@
     {
       "id": "4c25w45oskv",
       "type": "QUERY",
+      "code": "SHOW TABLE",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
