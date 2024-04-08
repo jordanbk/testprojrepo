@@ -2,7 +2,21 @@
   "analyzedDataset": "SQL_nyc_trips_copy_prepared",
   "connection": "postgresql",
   "name": "admin\u0027s sql notebook on SQL_nyc_trips_copy_prepared",
-  "cells": [],
+  "cells": [
+    {
+      "id": "4c25w45oskv",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "creationTag": {
     "versionNumber": 0,
