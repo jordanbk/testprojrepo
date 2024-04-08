@@ -29,7 +29,10 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -57,7 +60,17 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "DOLocationID": 105,
+    "fare_amount": 134,
+    "tpep_dropoff_datetime": 197,
+    "total_amount": 134,
+    "tip_amount": 134,
+    "trip_duration": 113,
+    "tpep_pickup_datetime": 190,
+    "PULocationID": 105,
+    "trip_distance": 134
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
