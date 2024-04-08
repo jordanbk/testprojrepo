@@ -1,0 +1,20 @@
+{
+  "analyzedDataset": "SQL_nyc_trips_copy_prepared",
+  "connection": "postgresql",
+  "name": "admin\u0027s sql notebook on SQL_nyc_trips_copy_prepared",
+  "cells": [],
+  "automationLocal": false,
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1712584988022,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
