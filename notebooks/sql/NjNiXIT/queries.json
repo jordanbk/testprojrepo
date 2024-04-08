@@ -22,6 +22,28 @@
         },
         "sql": "SHOW TABLE \"public\".\"SQL_nyc_trips_copy\"",
         "expandedSql": "SHOW TABLE \"public\".\"SQL_nyc_trips_copy\""
+      },
+      {
+        "mode": "SQL",
+        "id": "xCw12L5WJq8Y",
+        "runOn": 1712585018831,
+        "runIn": 101,
+        "runBy": "admin",
+        "connection": "postgresql",
+        "state": "RUNNING",
+        "futureId": "3QCg3PQt",
+        "hash": "7f054d0c3ed697cc9e8499489e09851d",
+        "querySettings": {
+          "addLimitToStatement": true,
+          "statementsOutOfTransaction": false,
+          "inheritConf": "default",
+          "extraConf": [],
+          "addDkuUdf": false,
+          "statementsParseMode": "SPLIT",
+          "statementsExecutionMode": "PREPARED"
+        },
+        "sql": "SHOW TABLES \"public\".\"SQL_nyc_trips_copy\"",
+        "expandedSql": "SHOW TABLES \"public\".\"SQL_nyc_trips_copy\""
       }
     ]
   }
