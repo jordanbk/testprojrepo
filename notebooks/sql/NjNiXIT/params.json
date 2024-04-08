@@ -6,7 +6,7 @@
     {
       "id": "4c25w45oskv",
       "type": "QUERY",
-      "code": "SELECT * \"public\".\"SQL_nyc_trips_copy\"",
+      "code": "SELECT *\nFROM \"public\".\"SQL_nyc_trips_copy\"\nlimit 10",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
