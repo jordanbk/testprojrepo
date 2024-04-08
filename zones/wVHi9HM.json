@@ -105,6 +105,10 @@
     {
       "objectId": "compute_us_tornado_test",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "SQL_nyc_trips_copy",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
