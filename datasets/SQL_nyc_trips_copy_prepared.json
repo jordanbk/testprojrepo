@@ -58,6 +58,7 @@
     "columns": [
       {"name":"tpep_pickup_datetime","type":"date"},
       {"name":"tpep_dropoff_datetime","type":"date"},
+      {"name":"newcolumn_expression","type":"string"},
       {"name":"trip_duration","type":"bigint"},
       {"name":"trip_distance","type":"double"},
       {"name":"PULocationID","type":"bigint"},
