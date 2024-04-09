@@ -33,7 +33,19 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [],
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if (tpep_pickup_datetime \u003e tpep_dropoff_datetime, \"yes\", \"no\")",
+        "column": "newcolumn_expression"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -65,6 +77,7 @@
     "fare_amount": 134,
     "tpep_dropoff_datetime": 197,
     "total_amount": 134,
+    "newcolumn_expression": 165,
     "tip_amount": 134,
     "trip_duration": 113,
     "tpep_pickup_datetime": 190,
