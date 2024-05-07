@@ -35,7 +35,7 @@ logger.info('calling auxiliary_module.some_function()')
 logger.info('done with auxiliary_module.some_function()')
 
 logger.info('Started')
-mylib.do_something()
+
 
 logger.info('Started')
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
