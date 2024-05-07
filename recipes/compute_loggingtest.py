@@ -8,7 +8,6 @@ import logging
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 logger.info('Started')
 myapp.do_something()
-logger.info('Finished')
 
 logger.info('Started')
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
