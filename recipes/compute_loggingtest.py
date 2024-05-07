@@ -3,8 +3,6 @@ import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
-
-
 import logging
 
 logging.basicConfig(filename="guided_repair_dataiku_python_library.log",
