@@ -1,5 +1,5 @@
 import logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('spam_application'')
 
 def do_something():
     logger.info('Doing something')
