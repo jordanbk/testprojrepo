@@ -21,6 +21,6 @@ df = pd.DataFrame(data, columns=['Name', 'Age'])
 # loggingtest_df = df
 logger.info('Finished')
 
-# # Write recipe outputs
-# loggingtest = dataiku.Dataset("loggingtest")
-# loggingtest.write_with_schema(loggingtest_df)
+# Write recipe outputs
+loggingtest = dataiku.Dataset("loggingtest")
+loggingtest.write_with_schema(loggingtest_df)
