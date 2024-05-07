@@ -4,6 +4,7 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 from lgg import mylib
 import logging
+logger = logging.getLogger(__name__)
 
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
 logger.info('Started')
