@@ -4,8 +4,10 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 import logging
 
+#create custom logger by defining it and adding handler
 logger = logging.getLogger('simple_example')
 logger.setLevel(logging.DEBUG)
+
 # create file handler which logs even debug messages
 fh = logging.FileHandler('/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log')
 fh.setLevel(logging.DEBUG)
@@ -17,19 +19,16 @@ fh.setFormatter(formatter)
 logger.addHandler(fh)
 
 # 'application' code
-logger.debug('debug message')
-logger.info('info message')
-logger.warning('warn message')
-logger.error('error message')
-logger.critical('critical message')
+logger.info('Starting')
+
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
  
 # Create the pandas DataFrame
 df = pd.DataFrame(data, columns=['Name', 'Age'])
 
+logger.info('Dataframe created created')
 
 loggingtest_df = df
-
 
 
 # Write recipe outputs
