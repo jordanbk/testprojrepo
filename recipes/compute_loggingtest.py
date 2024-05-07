@@ -5,7 +5,7 @@ from dataiku import pandasutils as pdu
 
 import logging
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename="guided_repair_dataiku_python_library.log",
+logging.basicConfig(filename="/Users/jordanburke/Library/DataScienceStudio/dss_home/guided_repair_dataiku_python_library.log",
                 format='%(asctime)s %(message)s',
                 filemode='w')
 
