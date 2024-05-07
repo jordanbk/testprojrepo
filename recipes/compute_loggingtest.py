@@ -11,8 +11,15 @@ logging.basicConfig(filename="guided_repair_dataiku_python_library.log",
                 format='%(asctime)s %(message)s',
                 filemode='w')
 
-# loggingtest_df = ... # Compute a Pandas dataframe to write into loggingtest
+logger.info('Started')
+data = [['tom', 10], ['nick', 15], ['juli', 14]]
+ 
+# Create the pandas DataFrame
+df = pd.DataFrame(data, columns=['Name', 'Age'])
 
+
+# loggingtest_df = df
+logger.info('Finished')
 
 # # Write recipe outputs
 # loggingtest = dataiku.Dataset("loggingtest")
