@@ -4,9 +4,11 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 from lgg import mylib
 import logging
+logging.basicConfig(filename='/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log', level=logging.INFO, format=LOG_FORMAT, force=True)
 logger = logging.getLogger(__name__)
 
-logging.basicConfig(filename='/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log', level=logging.INFO)
+logger.info("Hello world")
+
 logger.info('Started')
 mylib.do_something()
 
