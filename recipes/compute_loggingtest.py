@@ -6,7 +6,7 @@ from lgg import mylib
 import logging
 logger = logging.getLogger(__name__)
 
-logging.basicConfig(filename='myapp.log', level=logging.INFO)
+logging.basicConfig(filename='/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log', level=logging.INFO)
 logger.info('Started')
 mylib.do_something()
 
