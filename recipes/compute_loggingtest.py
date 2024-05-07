@@ -10,7 +10,18 @@ logger.setLevel(logging.DEBUG)
 fh = logging.FileHandler('/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log')
 fh.setLevel(logging.DEBUG)
 
-logger.info('Started')
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+fh.setFormatter(formatter)
+# add the handlers to logger
+
+logger.addHandler(fh)
+
+# 'application' code
+logger.debug('debug message')
+logger.info('info message')
+logger.warning('warn message')
+logger.error('error message')
+logger.critical('critical message')
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
  
 # Create the pandas DataFrame
@@ -18,7 +29,7 @@ df = pd.DataFrame(data, columns=['Name', 'Age'])
 
 
 loggingtest_df = df
-logger.info('Finished')
+
 
 
 # Write recipe outputs
