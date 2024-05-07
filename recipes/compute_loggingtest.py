@@ -5,10 +5,10 @@ from dataiku import pandasutils as pdu
 import myapp from logging
 import logging
 
-logger = logging.getLogger(__name__)
-
-def do_something():
-    logger.info('Doing something')
+logging.basicConfig(filename='myapp.log', level=logging.INFO)
+logger.info('Started')
+myapp.do_something()
+logger.info('Finished')
 
 logger.info('Started')
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
