@@ -9,7 +9,7 @@ logging.basicConfig(filename="guided_repair_dataiku_python_library.log",
                 format='%(asctime)s %(message)s',
                 filemode='w')
 
-logger.info('Started')
+logging.info('Started')
 data = [['tom', 10], ['nick', 15], ['juli', 14]]
  
 # Create the pandas DataFrame
