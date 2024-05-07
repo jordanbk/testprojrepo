@@ -2,7 +2,7 @@
 import dataiku
 import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
-import myapp from logging
+import mylib from lgg
 import logging
 
 logging.basicConfig(filename='myapp.log', level=logging.INFO)
