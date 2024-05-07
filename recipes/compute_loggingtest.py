@@ -4,7 +4,7 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 from lgg import mylib
 import logging
-logging.basicConfig(filename='/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log', level=logging.INFO, format=LOG_FORMAT, force=True)
+logging.basicConfig(filename='/Users/jordanburke/Library/DataScienceStudio/dss_home/tmp/myapp.log', level=logging.INFO, format='%(asctime)s %(message)s', force=True)
 logger = logging.getLogger(__name__)
 
 logger.info("Hello world")
