@@ -18,6 +18,8 @@ df = pd.DataFrame(data, columns=['Name', 'Age'])
 
 loggingtest_df = df
 logger.info('Finished')
+if __name__ == '__main__':
+    main()
 
 # Write recipe outputs
 loggingtest = dataiku.Dataset("loggingtest")
