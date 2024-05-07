@@ -4,7 +4,7 @@ import pandas as pd, numpy as np
 from dataiku import pandasutils as pdu
 
 import logging
-
+logger = logging.getLogger(__name__)
 logging.basicConfig(filename="guided_repair_dataiku_python_library.log",
                 format='%(asctime)s %(message)s',
                 filemode='w')
