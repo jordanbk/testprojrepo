@@ -117,6 +117,10 @@
     {
       "objectId": "compute_SQL_nyc_trips_copy_prepared",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "jb_test_store",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
