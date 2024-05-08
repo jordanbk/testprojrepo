@@ -121,10 +121,6 @@
     {
       "objectId": "jb_test_store",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_jb_test_store",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
