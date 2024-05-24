@@ -37,7 +37,7 @@
         {
           "scenarioId": "BUILDSHAREPOINT",
           "type": "SCENARIO_RUN",
-          "prompt": "tornado ds"
+          "prompt": "sharepoint"
         }
       ]
     }
