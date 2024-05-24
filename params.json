@@ -138,8 +138,9 @@
     },
     "codeEnvs": {
       "python": {
-        "mode": "INHERIT",
-        "preventOverride": false
+        "mode": "EXPLICIT_ENV",
+        "preventOverride": false,
+        "envName": "py37"
       },
       "r": {
         "mode": "INHERIT",
