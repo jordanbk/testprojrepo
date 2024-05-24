@@ -8,7 +8,7 @@
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
-  "hasSetupSection": true,
+  "hasSetupSection": false,
   "bundleContainerSettings": {
     "remapping": {
       "connections": [],
