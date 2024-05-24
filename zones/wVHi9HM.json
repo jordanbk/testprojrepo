@@ -91,10 +91,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "compute_us_tornado_dataset_1950_2021_prepared_embedded",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "us_tornado_test",
       "objectType": "DATASET"
     },

@@ -1,7 +1,0 @@
-{
-  "maxRecords": -1,
-  "metadataColumns": [],
-  "chunkOverlapCharacters": 120,
-  "chunkSizeCharacters": 4000,
-  "documentSplittingMode": "CHARACTERS_BASED"
-}
