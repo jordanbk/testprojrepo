@@ -30,7 +30,18 @@
     "showVersionControlFeatures": false
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "tiles": [
+        {
+          "scenarioId": "BUILDTORNADODS",
+          "buttonText": "run now",
+          "type": "SCENARIO_RUN",
+          "prompt": "tornado-dataset"
+        }
+      ]
+    }
+  ],
   "tags": [],
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
   "limitedVisibilityEnabled": "INHERIT",
