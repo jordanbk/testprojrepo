@@ -1,0 +1,40 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportModelEvaluationStores": false,
+    "exportProjectResources": false,
+    "exportLabelingTasks": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportKnowledgeBank": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showSwitchToProjectViewButton": true,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [],
+  "tags": [],
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
+  "limitedVisibilityEnabled": "INHERIT",
+  "accessRequestsEnabled": "INHERIT",
+  "allowedMissingConnections": [],
+  "allowedMissingCodeEnvs": []
+}

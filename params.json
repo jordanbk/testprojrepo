@@ -8,7 +8,7 @@
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
-  "hasSetupSection": false,
+  "hasSetupSection": true,
   "bundleExporterSettings": {
     "exportOptions": {
       "exportUploads": false,
