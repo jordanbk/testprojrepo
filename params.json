@@ -9,6 +9,16 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "hasSetupSection": true,
+  "bundleContainerSettings": {
+    "remapping": {
+      "connections": [],
+      "codeEnvs": []
+    },
+    "codeEnvsBehavior": {
+      "envImportSpecificationMode": "SPECIFIED",
+      "importTimeMode": "INSTALL_IF_MISS"
+    }
+  },
   "bundleExporterSettings": {
     "exportOptions": {
       "exportUploads": false,
