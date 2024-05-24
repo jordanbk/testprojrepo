@@ -3,7 +3,11 @@
     "imported": {
       "color": "#263238"
     },
-    "test-tag": {},
-    "recipe-editor": {}
+    "recipe-editor": {
+      "color": "#1ac2ab"
+    },
+    "test-tag": {
+      "color": "#0f6d82"
+    }
   }
 }
