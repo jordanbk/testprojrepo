@@ -23,14 +23,25 @@
     "exportGitRepository": false
   },
   "instanceFeatures": {
-    "showFlowNavLink": false,
-    "showLabNavLink": false,
-    "showCodeNavLink": false,
+    "showFlowNavLink": true,
+    "showLabNavLink": true,
+    "showCodeNavLink": true,
     "showSwitchToProjectViewButton": true,
-    "showVersionControlFeatures": false
+    "showVersionControlFeatures": true
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "sectionTitle": "scenario run",
+      "tiles": [
+        {
+          "scenarioId": "BUILDTORNADODS",
+          "type": "SCENARIO_RUN",
+          "prompt": "tornado ds"
+        }
+      ]
+    }
+  ],
   "label": "test",
   "shortDesc": "The template *test* was created by Administrator on May 24th 2024",
   "tags": [],
