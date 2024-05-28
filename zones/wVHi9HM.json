@@ -105,6 +105,10 @@
     {
       "objectId": "jb_test_store",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "test_geo",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
