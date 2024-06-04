@@ -88,7 +88,7 @@
       {"name":"yr","type":"bigint"},
       {"name":"mo","type":"bigint"},
       {"name":"dy","type":"bigint"},
-      {"name":"date","type":"string"},
+      {"name":"date_parsed","type":"date"},
       {"name":"st","type":"string"},
       {"name":"mag","type":"bigint"},
       {"name":"inj","type":"bigint"},
@@ -178,7 +178,7 @@
     }
   },
   "metricsChecks": {
-    "runOnBuild": false,
+    "monitor": false,
     "checks": [],
     "displayedState": {
       "checks": []
