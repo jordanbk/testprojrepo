@@ -67,10 +67,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "jb_redshift_float_prepared_copy_prep",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "mPG4e1V3",
       "objectType": "MANAGED_FOLDER"
     },
