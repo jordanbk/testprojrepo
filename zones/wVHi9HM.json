@@ -31,14 +31,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_jb_redshift_float_prepared_copy",
-      "objectType": "RECIPE"
-    },
-    {
-      "objectId": "jb_redshift_float_prepared_copy",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_us_tornado_dataset_1950_2021_prepared",
       "objectType": "RECIPE"
     },
