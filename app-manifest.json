@@ -30,21 +30,20 @@
     "showVersionControlFeatures": true
   },
   "useAppHomepage": true,
-  "homepageSections": [
-    {
-      "sectionTitle": "scenario run",
-      "tiles": [
-        {
-          "scenarioId": "BUILDSHAREPOINT",
-          "type": "SCENARIO_RUN",
-          "prompt": "sharepoint"
-        }
-      ]
-    }
-  ],
+  "homepageSections": [],
   "label": "test",
   "shortDesc": "The template *test* was created by Administrator on May 24th 2024",
   "tags": [],
+  "useAsRecipeSettings": {
+    "icon": "icon-dku-application-as-recipe",
+    "inputRoles": [],
+    "outputRoles": [],
+    "variablesEditionTile": {
+      "behavior": "MODAL",
+      "params": []
+    },
+    "runScenarioTile": {}
+  },
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
   "limitedVisibilityEnabled": "INHERIT",
   "accessRequestsEnabled": "INHERIT",
