@@ -40,9 +40,11 @@
     "outputRoles": [],
     "variablesEditionTile": {
       "behavior": "MODAL",
-      "params": []
+      "buttonText": "Edit"
     },
-    "runScenarioTile": {}
+    "runScenarioTile": {
+      "scenarioId": "BUILDSHAREPOINT"
+    }
   },
   "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
   "limitedVisibilityEnabled": "INHERIT",
