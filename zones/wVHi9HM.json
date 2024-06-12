@@ -89,6 +89,10 @@
     {
       "objectId": "compute_test_geo",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "FD19643_avocado_transactions_sql",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
