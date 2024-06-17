@@ -101,6 +101,10 @@
     {
       "objectId": "books",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_books",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
