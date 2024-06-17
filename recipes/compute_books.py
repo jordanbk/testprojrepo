@@ -7,7 +7,6 @@ from dataiku import pandasutils as pdu
 XML = dataiku.Folder("16soUqEn")
 XML_info = XML.get_info()
 
-paths = handle.list_paths_in_partition()
 
 with XML.get_download_stream("books.xml") as f:
     data = pd.read_xml(f)
