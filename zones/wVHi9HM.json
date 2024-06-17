@@ -97,6 +97,10 @@
     {
       "objectId": "16soUqEn",
       "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "books",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
