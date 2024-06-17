@@ -9,7 +9,7 @@ XML_info = XML.get_info()
 
 paths = handle.list_paths_in_partition()
 
-with handle.get_download_stream("books.xml") as f:
+with XML.get_download_stream("books.xml") as f:
     data = pd.read_xml(f)
 
 books_df = data
