@@ -93,6 +93,10 @@
     {
       "objectId": "FD19643_avocado_transactions_sql",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "16soUqEn",
+      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
