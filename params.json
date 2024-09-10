@@ -39,7 +39,17 @@
       "exportNotebooksWithOutputs": true,
       "exportForNewBranch": false,
       "exportKnowledgeBanks": false,
-      "includedDatasetsData": [],
+      "exportEditableDatasets": true,
+      "includedDatasetsData": [
+        {
+          "name": "oki_copy",
+          "type": "Inline"
+        },
+        {
+          "name": "jb_redshift_float",
+          "type": "Inline"
+        }
+      ],
       "includedSavedModels": [],
       "includedModelEvaluationStores": [],
       "includedManagedFolders": [],
@@ -57,13 +67,13 @@
       "user": "jordanb",
       "admin": false,
       "readProjectContent": true,
-      "writeProjectContent": false,
-      "exportDatasetsData": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
       "readDashboards": false,
       "writeDashboards": false,
       "moderateDashboards": false,
-      "publishToDataCollections": false,
-      "shareToWorkspaces": false,
+      "publishToDataCollections": true,
+      "shareToWorkspaces": true,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
       "manageExposedElements": false,
@@ -108,7 +118,8 @@
       "mergeSparkPipelines": false,
       "pruneBeforeSparkPipelines": true,
       "mergeSqlPipelines": false,
-      "pruneBeforeSqlPipelines": true
+      "pruneBeforeSqlPipelines": true,
+      "defaultRecipeHashPropagationBehavior": "ENABLED"
     },
     "sharingRequestsEnabled": "INHERIT",
     "limitedVisibilityEnabled": "INHERIT",
