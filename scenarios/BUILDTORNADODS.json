@@ -28,7 +28,7 @@
         "minute": 35,
         "hour": 17,
         "timezone": "SERVER",
-        "lastUpdate": 1726522426589
+        "lastUpdate": 1726522485703
       }
     }
   ],
@@ -59,8 +59,8 @@
   "params": {
     "steps": [
       {
-        "id": "build_2_true_d_us_tornados_split1_cp_d_us_tornados_split2_cp",
-        "type": "build_flowitem",
+        "id": "comp_metrics_d_books",
+        "type": "compute_metrics",
         "name": "Step #1",
         "runConditionType": "RUN_IF_STATUS_MATCH",
         "runConditionStatuses": [
@@ -72,23 +72,13 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "builds": [
+          "computes": [
             {
               "type": "DATASET",
-              "itemId": "us_tornados_split1_cp",
-              "partitionsSpec": ""
-            },
-            {
-              "type": "DATASET",
-              "itemId": "us_tornados_split2_cp",
+              "itemId": "books",
               "partitionsSpec": ""
             }
           ],
-          "jobType": "RECURSIVE_FORCED_BUILD",
-          "autoUpdateSchemaBeforeEachRecipeRun": false,
-          "stopAtFlowZoneBoundary": false,
-          "refreshHiveMetastore": true,
-          "handleWarningsAs": "WARNING",
           "proceedOnFailure": false
         }
       }
