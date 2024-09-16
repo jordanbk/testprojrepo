@@ -28,7 +28,7 @@
         "minute": 35,
         "hour": 17,
         "timezone": "SERVER",
-        "lastUpdate": 1726521833649
+        "lastUpdate": 1726521900431
       }
     }
   ],
@@ -51,7 +51,7 @@
       },
       "id": "h0vY2Sx6",
       "runConditionEnabled": true,
-      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "runCondition": "outcome \u003d\u003d \u0027SUCCESS\u0027",
       "phase": "END"
     }
   ],
