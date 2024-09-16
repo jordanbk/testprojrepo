@@ -28,11 +28,33 @@
         "minute": 35,
         "hour": 17,
         "timezone": "SERVER",
-        "lastUpdate": 1726521796922
+        "lastUpdate": 1726521833649
       }
     }
   ],
-  "reporters": [],
+  "reporters": [
+    {
+      "active": true,
+      "messaging": {
+        "type": "mail-scenario",
+        "configuration": {
+          "channelId": "gmail",
+          "subject": "DSS scenario ${scenarioName}: ${outcome}",
+          "sender": "jordan.burke@dataiku.com",
+          "recipient": "jordan.burke@dataiku.com",
+          "sendAsHTML": false,
+          "attachments": [],
+          "messageSource": "INLINE",
+          "templateFormat": "FREEMARKER",
+          "templateName": "default.ftl"
+        }
+      },
+      "id": "h0vY2Sx6",
+      "runConditionEnabled": true,
+      "runCondition": "outcome !\u003d \u0027SUCCESS\u0027",
+      "phase": "END"
+    }
+  ],
   "params": {
     "steps": [
       {
