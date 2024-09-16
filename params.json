@@ -42,10 +42,6 @@
       "exportEditableDatasets": true,
       "includedDatasetsData": [
         {
-          "name": "oki_copy",
-          "type": "Inline"
-        },
-        {
           "name": "jb_redshift_float",
           "type": "Inline"
         }
