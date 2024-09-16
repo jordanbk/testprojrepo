@@ -72,7 +72,7 @@
       "shareToWorkspaces": true,
       "runScenarios": false,
       "manageDashboardAuthorizations": false,
-      "manageExposedElements": false,
+      "manageExposedElements": true,
       "manageAdditionalDashboardUsers": false,
       "executeApp": false
     }
