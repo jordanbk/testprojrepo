@@ -1,7 +1,7 @@
 {
   "type": "step_based",
   "name": "build-sharepoint",
-  "active": true,
+  "active": false,
   "checklists": {
     "checklists": []
   },
