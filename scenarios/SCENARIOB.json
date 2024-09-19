@@ -11,7 +11,23 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "4E3xbouD",
+      "type": "follow_scenariorun",
+      "name": "Follow scenario",
+      "delay": 60,
+      "active": true,
+      "params": {
+        "scenarioId": "SCENARIOA",
+        "outcomeFilter": "SUCCESS"
+      },
+      "graceDelaySettings": {
+        "delay": 0,
+        "checkAgainAfterGraceDelay": false
+      }
+    }
+  ],
   "reporters": [],
   "params": {
     "steps": []
