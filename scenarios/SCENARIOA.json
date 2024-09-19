@@ -29,7 +29,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "script": "import dataiku\nimport time\n\ntime.sleep(6000)",
+          "script": "import dataiku\nimport time\n\ntime.sleep(65)",
           "envSelection": {
             "envMode": "INHERIT"
           },
