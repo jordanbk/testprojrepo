@@ -17,7 +17,7 @@
       "type": "follow_scenariorun",
       "name": "Follow scenario",
       "delay": 60,
-      "active": true,
+      "active": false,
       "params": {
         "scenarioId": "SCENARIOA",
         "outcomeFilter": "SUCCESS"
