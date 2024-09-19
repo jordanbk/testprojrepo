@@ -1,15 +1,7 @@
 {
   "type": "step_based",
   "name": "scenarioB",
-  "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1726780291703,
-    "extendedProperties": {}
-  },
+  "active": true,
   "checklists": {
     "checklists": []
   },
