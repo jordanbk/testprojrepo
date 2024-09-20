@@ -61,7 +61,7 @@
   "permissions": [
     {
       "user": "jordanb",
-      "admin": false,
+      "admin": true,
       "readProjectContent": true,
       "writeProjectContent": true,
       "exportDatasetsData": true,
