@@ -77,23 +77,6 @@
       "executeApp": false
     },
     {
-      "group": "data_team",
-      "admin": false,
-      "readProjectContent": false,
-      "writeProjectContent": true,
-      "exportDatasetsData": true,
-      "readDashboards": false,
-      "writeDashboards": false,
-      "moderateDashboards": false,
-      "publishToDataCollections": true,
-      "shareToWorkspaces": true,
-      "runScenarios": false,
-      "manageDashboardAuthorizations": false,
-      "manageExposedElements": true,
-      "manageAdditionalDashboardUsers": false,
-      "executeApp": false
-    },
-    {
       "group": "administrators",
       "admin": true,
       "readProjectContent": false,
