@@ -62,7 +62,7 @@
     {
       "user": "jordanb",
       "admin": true,
-      "readProjectContent": true,
+      "readProjectContent": false,
       "writeProjectContent": true,
       "exportDatasetsData": true,
       "readDashboards": false,
