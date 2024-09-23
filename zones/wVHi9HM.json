@@ -105,6 +105,10 @@
     {
       "objectId": "compute_books",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "NIFzTZbI",
+      "objectType": "MANAGED_FOLDER"
     }
   ],
   "shared": [],
