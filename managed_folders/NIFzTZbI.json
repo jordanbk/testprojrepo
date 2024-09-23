@@ -7,7 +7,7 @@
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "${odbId}",
     "connection": "jordanstore",
-    "path": "/dataiku/${projectKey}/${odbId}",
+    "path": "/dataiku/audit/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
