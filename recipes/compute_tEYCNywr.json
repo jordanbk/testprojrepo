@@ -1,0 +1,55 @@
+{
+  "type": "merge_folder",
+  "neverRecomputeExistingPartitions": false,
+  "params": {
+    "clearBeforeCopy": true,
+    "conflictHandling": "OVERWRITE",
+    "engineParams": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "hashPropagationBehavior": "INHERIT",
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "NIFzTZbI",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "tEYCNywr",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1727112881763,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

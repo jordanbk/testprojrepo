@@ -121,6 +121,10 @@
     {
       "objectId": "tEYCNywr",
       "objectType": "MANAGED_FOLDER"
+    },
+    {
+      "objectId": "compute_tEYCNywr",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
