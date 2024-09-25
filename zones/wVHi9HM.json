@@ -83,10 +83,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "test_geo",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "FD19643_avocado_transactions_sql",
       "objectType": "DATASET"
     },
