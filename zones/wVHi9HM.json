@@ -117,10 +117,6 @@
     {
       "objectId": "compute_tEYCNywr",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "compute_test_geo_spark",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],
