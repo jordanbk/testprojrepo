@@ -127,10 +127,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "test_geo_spark",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_test_geo_spark",
       "objectType": "RECIPE"
     }
