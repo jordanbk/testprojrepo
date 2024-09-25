@@ -10,7 +10,7 @@
       "envMode": "INHERIT"
     },
     "nbProcesses": 1,
-    "backendAPIAccessEnabled": true,
+    "backendAPIAccessEnabled": false,
     "libraries": [
       "jquery",
       "dataiku"
@@ -42,7 +42,7 @@
   },
   "config": {},
   "name": "jordanb-standard-test",
-  "apiKey": "e:AES:X2:Pvaex3+GWPhe5xTArgZqUBR4xyhbETHAO2GGXH2YBihb+0LuVOmJswZRBcStBjrCVvvS4hA+tWGs6B4vyVIXILmeg/+Li7Gm+jAWYfjOieZGKOv6nIwK",
+  "apiKey": "e:AES:X2:8Qd9S6j4RLOZTvraigPNTDoI78JSUb1KR2GHbz/zHU4bjf+HgslpbTBhOEHMWZlJDzgaXHyi512Hu5ScVypu0KmwRQ1zNBD7S057vLK8u2DQi4lsteKC",
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {

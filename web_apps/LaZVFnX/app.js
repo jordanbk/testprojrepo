@@ -67,3 +67,25 @@ fetchButton.addEventListener('click', function(event) {
     });
     return false;
 });
+
+
+dataiku.fetch('books', {
+        sampling: "head",
+        limit: 10000
+    }, function(dataFrame) {
+    /* Process the dataframe */
+})
+
+dataiku.fetch('books', {
+        sampling: "head",
+        limit: 10000
+    }, function(dataFrame) {
+    /* Process the dataframe */
+})
+
+dataiku.fetch('FD19643_avocado_transactions_sql', {
+        sampling: "head",
+        limit: 10000
+    }, function(dataFrame) {
+    /* Process the dataframe */
+})
