@@ -1,0 +1,51 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [
+      {
+        "datasets": [
+          "__rw__dataset1__",
+          "__rw__dataset2__"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "WRITE_DATA",
+          "READ_METADATA",
+          "WRITE_METADATA",
+          "READ_SCHEMA",
+          "WRITE_SCHEMA"
+        ]
+      },
+      {
+        "datasets": [
+          "__r__dataset__"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      }
+    ],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": true,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": true,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "id": "Oe9dtMmSpZYcLQDj",
+    "key": "dkuaps-0tyGFVPlh7xo4WnJ3wtqIbUKJgba1u3t",
+    "label": "non-admin",
+    "createdOn": 1727279478123
+  }
+]
