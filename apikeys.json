@@ -57,6 +57,7 @@
         ],
         "privileges": [
           "READ_DATA",
+          "READ_METADATA",
           "READ_SCHEMA"
         ]
       },
