@@ -50,7 +50,102 @@
   },
   {
     "execSQLLike": false,
-    "localDatasets": [],
+    "localDatasets": [
+      {
+        "datasets": [
+          "FD19643_avocado_transactions_sql"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "SQL_nyc_trips_copy"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "books"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "READ_METADATA",
+          "READ_SCHEMA"
+        ]
+      },
+      {
+        "datasets": [
+          "dima_titanic_s3_redshft_fastpath"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "READ_SCHEMA"
+        ]
+      },
+      {
+        "datasets": [
+          "dima_titanic_s3_redshft_fastpath_prepared"
+        ],
+        "privileges": [
+          "READ_DATA",
+          "READ_SCHEMA"
+        ]
+      },
+      {
+        "datasets": [
+          "jb_redshift_float"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "jb_redshift_float_prepared"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "jb_test_store"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornado_dataset_1950_2021"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornado_dataset_1950_2021_prepared"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornados_split1"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornados_split1_cp"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornados_split2"
+        ],
+        "privileges": []
+      },
+      {
+        "datasets": [
+          "us_tornados_split2_cp"
+        ],
+        "privileges": []
+      }
+    ],
     "projectPrivileges": {
       "admin": false,
       "readProjectContent": false,
