@@ -125,6 +125,10 @@
     {
       "objectId": "compute_tEYCNywr",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "test_geo_spark",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
