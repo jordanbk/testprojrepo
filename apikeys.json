@@ -55,7 +55,10 @@
         "datasets": [
           "FD19643_avocado_transactions_sql"
         ],
-        "privileges": []
+        "privileges": [
+          "READ_DATA",
+          "READ_SCHEMA"
+        ]
       },
       {
         "datasets": [
