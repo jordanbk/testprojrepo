@@ -1,1 +1,1 @@
-CALL "UDF_MAX";
+SELECT "UDF_MAX";
