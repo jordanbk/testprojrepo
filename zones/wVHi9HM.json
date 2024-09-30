@@ -121,6 +121,10 @@
     {
       "objectId": "SALES",
       "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_sales_max",
+      "objectType": "RECIPE"
     }
   ],
   "shared": [],
