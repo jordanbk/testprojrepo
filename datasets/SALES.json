@@ -1,0 +1,173 @@
+{
+  "type": "Snowflake",
+  "managed": false,
+  "featureGroup": false,
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1727718827685,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "connection": "snowflake",
+    "notReadyIfEmpty": false,
+    "mode": "table",
+    "partitioningType": "custom",
+    "normalizeDoubles": true,
+    "catalog": "INTEGRATION_TESTS",
+    "table": "SALES",
+    "schema": "JORDAN_SCHEMA",
+    "tableCreationMode": "auto",
+    "writeInsertBatchSize": 10000,
+    "noDropOnSchemaMismatch": true,
+    "writeJDBCBadDataBehavior": "DISCARD_ROW",
+    "readColsWithUnknownTzAsDates": false,
+    "readSQLDateColsAsDSSDates": true,
+    "assumedTzForUnknownTz": "UTC",
+    "variablesExpansionLoopConfig": {
+      "enabled": false,
+      "mode": "CREATE_VARIABLE_FOR_EACH_COLUMN",
+      "replacements": []
+    },
+    "sparkJdbcAccess": "NONE",
+    "numPartitions": -1
+  },
+  "schema": {
+    "columns": [
+      {"name":"SS_SOLD_DATE_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_SOLD_TIME_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_ITEM_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_CUSTOMER_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_CDEMO_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_HDEMO_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_ADDR_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_STORE_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_PROMO_SK","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_TICKET_NUMBER","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_QUANTITY","type":"bigint","originalType":"NUMBER"},
+      {"name":"SS_WHOLESALE_COST","type":"double","originalType":"NUMBER"},
+      {"name":"SS_LIST_PRICE","type":"double","originalType":"NUMBER"},
+      {"name":"SS_SALES_PRICE","type":"double","originalType":"NUMBER"},
+      {"name":"SS_EXT_DISCOUNT_AMT","type":"double","originalType":"NUMBER"},
+      {"name":"SS_EXT_SALES_PRICE","type":"double","originalType":"NUMBER"},
+      {"name":"SS_EXT_WHOLESALE_COST","type":"double","originalType":"NUMBER"},
+      {"name":"SS_EXT_LIST_PRICE","type":"double","originalType":"NUMBER"},
+      {"name":"SS_EXT_TAX","type":"double","originalType":"NUMBER"},
+      {"name":"SS_COUPON_AMT","type":"double","originalType":"NUMBER"},
+      {"name":"SS_NET_PAID","type":"double","originalType":"NUMBER"},
+      {"name":"SS_NET_PAID_INC_TAX","type":"double","originalType":"NUMBER"},
+      {"name":"SS_NET_PROFIT","type":"double","originalType":"NUMBER"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "monitor": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}

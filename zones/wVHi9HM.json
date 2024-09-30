@@ -117,6 +117,10 @@
     {
       "objectId": "compute_tEYCNywr",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "SALES",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
