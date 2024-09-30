@@ -59,7 +59,9 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"\"INTEGRATION_TESTS\".\"JORDAN_SCHEMA\".UDF_MAX__","type":"double","originalType":"NUMBER"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
