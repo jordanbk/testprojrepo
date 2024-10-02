@@ -15,7 +15,7 @@
       ],
       "inputFolderRefs": [],
       "userFunctionName": "api_py_function",
-      "code": "import dataiku\ndataiku.set_remote_dss(\"http://localhost:11200/\", \"j6IDfFQCkCEXNtUEURRI7kReQhoS4WIB\")\n\ndef api_py_function(deployment):\n    client \u003d dataiku.api_client()\n    apideployer \u003d client.get_apideployer()\n    project \u003d client.get_project(dataiku.default_project_key())\n    api_infrastructure_id \u003d apideployer.list_infras()[0].id\n\n    # Get the API service\n    deployment_id \u003d apideployer.get_deployment(deployment).deployment_id\n    deployment \u003d apideployer.get_deployment(deployment_id)\n    deployment_status \u003d deployment.get_status().get_health_messages()\n",
+      "code": "import os\nimport dataiku\ndataiku.set_remote_dss(\"http://localhost:11200/\", \"j6IDfFQCkCEXNtUEURRI7kReQhoS4WIB\")\nos.environ[\u0027DKU_CURRENT_PROJECT_KEY\u0027] \u003d \u0027TEST\u0027\n\ndef api_py_function(deployment):\n    client \u003d dataiku.api_client()\n    apideployer \u003d client.get_apideployer()\n    project \u003d client.get_project(dataiku.default_project_key())\n    api_infrastructure_id \u003d apideployer.list_infras()[0].id\n\n    # Get the API service\n    deployment_id \u003d apideployer.get_deployment(deployment).deployment_id\n    deployment \u003d apideployer.get_deployment(deployment_id)\n    deployment_status \u003d deployment.get_status().get_health_messages()\n",
       "id": "python",
       "type": "PY_FUNCTION",
       "openAPI": {
