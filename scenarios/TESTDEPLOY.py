@@ -118,8 +118,8 @@ def delete_deployment(apideployer, deployment_id):
 def main():
     # Define API deployment details
     api_service_name = "apiservice"
-    service_id = "apitestservice"
-    deployment_id = "apitestdeployment"
+    service_id = "apiservice"
+    deployment_id = "apiservicedeployment"
     version = "v1"
 
     # Create or update the deployment
