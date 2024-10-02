@@ -2,14 +2,6 @@
   "type": "custom_python",
   "name": "testdeploy",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1727885077747,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
