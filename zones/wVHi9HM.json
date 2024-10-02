@@ -125,6 +125,14 @@
     {
       "objectId": "compute_sales_max",
       "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_us_tornado_dataset_1950_2021_copy",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "us_tornado_dataset_1950_2021_copy",
+      "objectType": "DATASET"
     }
   ],
   "shared": [],
