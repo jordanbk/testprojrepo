@@ -1,0 +1,30 @@
+{
+  "endpoints": [],
+  "authMethod": "PUBLIC",
+  "authRealm": {
+    "queryKeys": []
+  },
+  "oauth2Config": {
+    "keysFormat": "JWKS_URI",
+    "jwkUriConnectTimeout": 500,
+    "jwkUriReadTimeout": 500,
+    "jwkUriSizeLimit": 51200,
+    "disableSSLCertificatesCheck": false,
+    "scopeClaimFormat": "STRING",
+    "scopeClaimKey": "scope"
+  },
+  "deploymentMonitoring": [],
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1727885382838,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
