@@ -91,7 +91,7 @@ def main():
     api_service_name = "testservice"
     service_id = "validationtestservice"
     deployment_id = "validationtestdeployment"
-    version = "v3"
+    version = "v1"
 
     # Create or update the deployment
     create_or_update_deployment(api_service_name, service_id, deployment_id, version)
