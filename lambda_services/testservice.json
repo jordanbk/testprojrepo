@@ -1,5 +1,24 @@
 {
-  "endpoints": [],
+  "name": "testservice",
+  "endpoints": [
+    {
+      "envSelection": {
+        "envMode": "INHERIT"
+      },
+      "testQueries": [],
+      "inputFolderRefs": [],
+      "userFunctionName": "api_py_function",
+      "code": "\n# Insert here initialization code\n\n# This function is the entry point for your Python function API\n# You can call this function with passing \"param1\", \"param2\",\n# \"param3\" as arguments to the API call\n# (see REST API documentation)\ndef api_py_function(param1, param2, param3):\n    return param1 + param2 * param3\n",
+      "id": "validationtestservice",
+      "type": "PY_FUNCTION",
+      "openAPI": {
+        "title": "validationtestservice",
+        "content": "{\n  \"paths\" : {\n    \"/validationtestservice/run\" : {\n      \"post\" : {\n        \"summary\" : \"validationtestservice endpoint\",\n        \"description\" : \"Prediction type: PY_FUNCTION\",\n        \"parameters\" : [ {\n          \"in\" : \"body\",\n          \"name\" : \"serviceInputPayload\",\n          \"description\" : \"The input payload for executing the real-time machine learning service.\",\n          \"required\" : true,\n          \"schema\" : {\n            \"$ref\" : \"#/definitions/validationtestservice_EndpointInput\"\n          }\n        } ],\n        \"responses\" : {\n          \"200\" : {\n            \"description\" : \"The service processed the input correctly and provided a result prediction, if applicable.\",\n            \"schema\" : {\n              \"$ref\" : \"#/definitions/validationtestservice_EndpointOutput\"\n            }\n          },\n          \"default\" : {\n            \"description\" : \"The service failed to execute due to an error.\",\n            \"schema\" : {\n              \"$ref\" : \"#/definitions/validationtestservice_ErrorResponse\"\n            }\n          }\n        }\n      }\n    }\n  },\n  \"definitions\" : {\n    \"validationtestservice_EndpointInput\" : {\n      \"type\" : \"object\",\n      \"properties\" : {\n        \"features\" : {\n          \"type\" : \"object\",\n          \"properties\" : {\n            \"stringPropExample\" : {\n              \"type\" : \"string\"\n            },\n            \"intPropExample\" : {\n              \"type\" : \"integer\",\n              \"format\" : \"int32\"\n            },\n            \"doublePropExample\" : {\n              \"type\" : \"number\",\n              \"format\" : \"double\"\n            },\n            \"boolPropExample\" : {\n              \"type\" : \"boolean\"\n            },\n            \"floatPropExample\" : {\n              \"type\" : \"number\",\n              \"format\" : \"float\"\n            }\n          }\n        }\n      }\n    },\n    \"validationtestservice_EndpointOutput\" : {\n      \"type\" : \"object\",\n      \"properties\" : {\n        \"result\" : {\n          \"type\" : \"object\",\n          \"properties\" : {\n            \"OutputPropExample\" : {\n              \"type\" : \"string\"\n            }\n          }\n        }\n      }\n    },\n    \"validationtestservice_ErrorResponse\" : {\n      \"type\" : \"object\",\n      \"properties\" : {\n        \"status_code\" : {\n          \"type\" : \"integer\",\n          \"format\" : \"int32\"\n        },\n        \"message\" : {\n          \"type\" : \"string\"\n        }\n      }\n    }\n  }\n}",
+        "enabled": false,
+        "isManual": true
+      }
+    }
+  ],
   "authMethod": "PUBLIC",
   "authRealm": {
     "queryKeys": []
