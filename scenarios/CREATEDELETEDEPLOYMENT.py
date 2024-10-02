@@ -34,9 +34,9 @@ def create_or_update_deployment(api_service_name, service_id, deployment_id, ver
     except Exception as e:
         print(f"Version {version} already exists for this published API: {e}")
         
-if not apideployer.get_deployment(deployment_id):
-    print(f"Creating deployment {deployment_id}...")
-    apideployer.create_deployment(deployment_id)
+    if not apideployer.get_deployment(deployment_id):
+        print(f"Creating deployment {deployment_id}...")
+        apideployer.create_deployment(deployment_id)
 
     try:
         deployment = apideployer.get_deployment(deployment_id)
