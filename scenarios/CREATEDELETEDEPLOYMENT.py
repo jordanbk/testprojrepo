@@ -33,6 +33,10 @@ def create_or_update_deployment(api_service_name, service_id, deployment_id, ver
         api_service.publish_package(version, service_id)
     except Exception as e:
         print(f"Version {version} already exists for this published API: {e}")
+        
+if not apideployer.get_deployment(deployment_id):
+    print(f"Creating deployment {deployment_id}...")
+    apideployer.create_deployment(deployment_id)
 
     try:
         deployment = apideployer.get_deployment(deployment_id)
@@ -88,9 +92,9 @@ def delete_deployment(apideployer, deployment_id):
 
 def main():
     # Define API deployment details
-    api_service_name = "testservice"
-    service_id = "validationtestservice"
-    deployment_id = "validationtestdeployment"
+    api_service_name = "myservice"
+    service_id = "mytestservice"
+    deployment_id = "mytestdeployment"
     version = "v1"
 
     # Create or update the deployment
