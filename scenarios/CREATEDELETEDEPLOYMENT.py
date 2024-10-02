@@ -12,13 +12,13 @@ def create_or_update_deployment(api_service_name, service_id, deployment_id, ver
     project = slb_client.get_project(dataiku.default_project_key())
     api_infrastructure_id = apideployer.list_infras()[0].id
 
-#     # Get the API service
-#     api_service = project.get_api_service(api_service_name)
-#     assert api_service.get_settings(), f"Service {api_service} not found"
+    # Get the API service
+    api_service = project.get_api_service(api_service_name)
+    assert api_service.get_settings(), f"Service {api_service} not found"
 
-#     # Check if the package with the given version exists
-#     existing_packages = api_service.list_packages()
-#     package_exists = any(item['id'] == version for item in existing_packages)
+    # Check if the package with the given version exists
+    existing_packages = api_service.list_packages()
+    package_exists = any(item['id'] == version for item in existing_packages)
     
     if not apideployer.get_service(service_id):
         print(f"Creating Service {service_id}...")
