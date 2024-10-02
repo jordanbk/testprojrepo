@@ -2,14 +2,6 @@
   "type": "custom_python",
   "name": "create-delete-deployment",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1727882953916,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },

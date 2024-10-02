@@ -1,24 +1,105 @@
-# This sample code helps you get started with the custom scenario API.
-#For more details and samples, please see our Documentation
+import dataiku
+import time
 from dataiku.scenario import Scenario
 
-# The Scenario object is the main handle from which you initiate steps
-scenario = Scenario()
 
-# A few example steps follow
+def create_or_update_deployment(api_service_name, service_id, deployment_id, version):
+    """
+    Create or update an API deployment with the given details.
+    """
+    slb_client = dataiku.api_client()
+    apideployer = slb_client.get_apideployer()
+    project = slb_client.get_project(dataiku.default_project_key())
+    api_infrastructure_id = apideployer.list_infras()[0].id
 
-# Building a dataset
-scenario.build_dataset("customers_prepared", partitions="2015-01-03")
+    # Get the API service
+    api_service = project.get_api_service(api_service_name)
+    assert api_service.get_settings(), f"Service {api_service} not found"
 
-# Controlling the train of a dataset
-train_ret = scenario.train_model("uSEkldfsm")
-trained_model = train_ret.get_trained_model()
-performance = trained_model.get_new_version_metrics().get_performance_values()
-if performance["AUC"] > 0.85:
-    trained_model.activate_new_version()
+    # Check if the package with the given version exists
+    existing_packages = api_service.list_packages()
+    package_exists = any(item['id'] == version for item in existing_packages)
 
-# Sending custom reports
-sender = scenario.get_message_sender("mail-scenario", "local-mail") # A messaging channel
-sender.set_params(sender="dss@company.com", recipient="data-scientists@company.com")
+    if not package_exists:
+        print(f"Creating Version {version}...")
+        api_service.create_package(version)
 
-sender.send(subject="The scenario is doing well", message="All is good")
+    if not apideployer.get_service(service_id):
+        print(f"Creating Service {service_id}...")
+        apideployer.create_service(service_id)
+
+    try:
+        print(f"Publishing package {version} to {service_id}...")
+        api_service.publish_package(version, service_id)
+    except Exception as e:
+        print(f"Version {version} already exists for this published API: {e}")
+
+    try:
+        deployment = apideployer.get_deployment(deployment_id)
+        deployment_status = deployment.get_status().get_health()
+        print(f"Deployment status: {deployment_status}")
+
+        if deployment_status != "HEALTHY":
+            deployment = None
+    except Exception as e:
+        print(f"Deployment {deployment_id} is corrupted: {e}")
+        deployment = None
+
+    if deployment is None:
+        print(f"Deploying {deployment_id}...")
+        deployment = apideployer.create_deployment(
+            deployment_id,
+            service_id,
+            api_infrastructure_id,
+            version
+        )
+
+    # Start and wait for the deployment update
+    deployment.start_update().wait_for_result()
+
+def clean_up(api_service_name, service_id, deployment_id, version):
+    """
+    Delete API deployment, API service package, and service based on provided details.
+    """
+    slb_client = dataiku.api_client()
+    apideployer = slb_client.get_apideployer()
+    project = slb_client.get_project(dataiku.default_project_key())
+
+    def delete_with_error_handling(delete_function, entity_name):
+        try:
+            delete_function()
+        except Exception as error:
+            print(f"Error deleting {entity_name}: {error}")
+
+    delete_with_error_handling(lambda: delete_deployment(apideployer, deployment_id), "deployment")
+    delete_with_error_handling(lambda: project.get_api_service(api_service_name).delete_package(version), "API service package")
+    delete_with_error_handling(lambda: apideployer.get_service(service_id).delete(), "service")
+
+
+def delete_deployment(apideployer, deployment_id):
+    deployment = apideployer.get_deployment(deployment_id)
+    deployment_settings = deployment.get_settings()
+    deployment_settings.set_enabled(False)
+    deployment_settings.save(ignore_warnings=True)
+    deployment.start_update().wait_for_result() # Update the deployment to disable it
+    deployment.delete(ignore_pre_delete_errors=True)
+
+
+
+def main():
+    # Define API deployment details
+    api_service_name = "testservice"
+    service_id = "validationtestservice"
+    deployment_id = "validationtestdeployment"
+    version = "v2"
+
+    # Create or update the deployment
+    create_or_update_deployment(api_service_name, service_id, deployment_id, version)
+
+    # Set scenario variables
+    scenario = Scenario()
+    clean_up(api_service_name, service_id, deployment_id, version)
+
+
+main()
+
