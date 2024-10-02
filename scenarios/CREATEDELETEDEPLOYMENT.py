@@ -19,14 +19,14 @@ def create_or_update_deployment(api_service_name, service_id, deployment_id, ver
     # Check if the package with the given version exists
     existing_packages = api_service.list_packages()
     package_exists = any(item['id'] == version for item in existing_packages)
+    
+    if not apideployer.get_service(service_id):
+        print(f"Creating Service {service_id}...")
+        apideployer.create_service(service_id)
 
     if not package_exists:
         print(f"Creating Version {version}...")
         api_service.create_package(version)
-
-    if not apideployer.get_service(service_id):
-        print(f"Creating Service {service_id}...")
-        apideployer.create_service(service_id)
 
     try:
         print(f"Publishing package {version} to {service_id}...")
