@@ -71,7 +71,7 @@
       {"name":"fare_amount","type":"string","originalType":"text"},
       {"name":"tip_amount","type":"string","originalType":"text"},
       {"name":"total_amount","type":"string","originalType":"text"},
-      {"name":"tip_percentage","type":"int","originalType":"int4"}
+      {"name":"tip_percentage","type":"double","originalType":"float8"}
     ],
     "userModified": true
   },
