@@ -75,10 +75,6 @@
       "objectType": "RECIPE"
     },
     {
-      "objectId": "SQL_nyc_trips_copy",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "jb_test_store",
       "objectType": "DATASET"
     },
@@ -133,10 +129,6 @@
     {
       "objectId": "us_tornado_dataset_1950_2021_copy",
       "objectType": "DATASET"
-    },
-    {
-      "objectId": "compute_nyc_trips_tip_percentage",
-      "objectType": "RECIPE"
     }
   ],
   "shared": [],

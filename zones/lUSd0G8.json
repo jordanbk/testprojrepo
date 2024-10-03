@@ -1,7 +1,20 @@
 {
   "name": "postgres",
   "color": "#8C2DA7",
-  "items": [],
+  "items": [
+    {
+      "objectId": "SQL_nyc_trips_copy",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "nyc_trips_tip_percentage",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_nyc_trips_tip_percentage",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
