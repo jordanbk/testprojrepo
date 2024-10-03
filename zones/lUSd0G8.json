@@ -11,6 +11,14 @@
       "objectType": "DATASET"
     },
     {
+      "objectId": "compute_nyc_trips_tip_percentage_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "nyc_trips_tip_percentage_prepared",
+      "objectType": "DATASET"
+    },
+    {
       "objectId": "compute_nyc_trips_tip_percentage",
       "objectType": "RECIPE"
     }
