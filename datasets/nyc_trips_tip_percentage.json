@@ -61,7 +61,18 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"tpep_pickup_datetime","type":"string","originalType":"text"},
+      {"name":"tpep_dropoff_datetime","type":"string","originalType":"text"},
+      {"name":"trip_duration","type":"string","originalType":"text"},
+      {"name":"trip_distance","type":"string","originalType":"text"},
+      {"name":"PULocationID","type":"string","originalType":"text"},
+      {"name":"DOLocationID","type":"string","originalType":"text"},
+      {"name":"fare_amount","type":"string","originalType":"text"},
+      {"name":"tip_amount","type":"string","originalType":"text"},
+      {"name":"total_amount","type":"string","originalType":"text"},
+      {"name":"tip_percentage","type":"int","originalType":"int4"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
