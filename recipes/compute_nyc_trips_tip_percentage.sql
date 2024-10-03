@@ -1,7 +1,7 @@
 SELECT 
     *,
     CASE 
-        WHEN total_amount = 0 THEN 0
+        WHEN total_amount::float = 0 THEN 0
         ELSE (tip_amount::float / total_amount::float) * 100
     END AS tip_percentage
 FROM 
